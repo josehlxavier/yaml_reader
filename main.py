@@ -20,8 +20,10 @@ if __name__ == '__main__':
         # If no exception is raised by validate_spec(), the spec is valid.
         try:
             errors_iterator = openapi_v30_spec_validator.iter_errors(spec_dict)
-            for item in errors_iterator:
-                print(item)
+            if errors_iterator:
+                print("Arquivo: "+str(args['path']))
+                for item in errors_iterator:
+                    print(item)
         except Exception as e:
             print(e)
     if args['file']:
@@ -33,7 +35,10 @@ if __name__ == '__main__':
                     spec_dict, spec_url = read_from_filename(line)
                     try:
                         errors_iterator = openapi_v30_spec_validator.iter_errors(spec_dict)
-                        for item in errors_iterator:
-                            print(item)
+                        if errors_iterator:
+                            print("Arquivo: " + line)
+                            for item in errors_iterator:
+                                print(item)
                     except Exception as e:
                         print(e)
+                    print(" \n ")
