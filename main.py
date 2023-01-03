@@ -3,6 +3,17 @@ from openapi_spec_validator import openapi_v30_spec_validator
 import argparse
 import re
 
+def oasReader(file_path):
+    spec_dict, spec_url = read_from_filename(file_path)
+    # If no exception is raised by validate_spec(), the spec is valid.
+    try:
+        errors_iterator = openapi_v30_spec_validator.iter_errors(spec_dict)
+        if errors_iterator:
+            print("Arquivo: " + str(file_path))
+            for item in errors_iterator:
+                print(item)
+    except Exception as e:
+        print(e)
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
@@ -15,30 +26,17 @@ if __name__ == '__main__':
     parser.add_argument("-f","--file", help="Path para arquivo .csv contendo uma lista com todos os\
                                             paths para os arquivos a serem validados")
     args = vars(parser.parse_args())
+    if args['path'] and args['file']:
+        raise TypeError('Não é possível receber os dois parametros ao mesmo tempo')
+
     if args['path']:
-        spec_dict, spec_url = read_from_filename(args['path'])
-        # If no exception is raised by validate_spec(), the spec is valid.
-        try:
-            errors_iterator = openapi_v30_spec_validator.iter_errors(spec_dict)
-            if errors_iterator:
-                print("Arquivo: "+str(args['path']))
-                for item in errors_iterator:
-                    print(item)
-        except Exception as e:
-            print(e)
+        oasReader(args['path'])
+
     if args['file']:
         import csv
         with open(args['file'], 'r') as file:
             csvreader = csv.reader(file, delimiter=";")
             for row in csvreader:
                 for line in row:
-                    spec_dict, spec_url = read_from_filename(line)
-                    try:
-                        errors_iterator = openapi_v30_spec_validator.iter_errors(spec_dict)
-                        if errors_iterator:
-                            print("Arquivo: " + line)
-                            for item in errors_iterator:
-                                print(item)
-                    except Exception as e:
-                        print(e)
+                    oasReader(line)
                     print(" \n ")
