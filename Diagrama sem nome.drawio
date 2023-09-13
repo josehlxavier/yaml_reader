@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-13T17:47:41.700Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="K1bv7v8UPsAfE_g3Nrb1" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-13T19:52:37.167Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Yl64nGkfDkSxZ_NX914M" version="21.7.4" type="github">
   <diagram name="Página-1" id="JwyAD8q-a5flx_eW0Gd6">
-    <mxGraphModel dx="2679" dy="1771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7934" dy="3009" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1239,7 +1239,7 @@
           <mxGeometry x="-310" y="1860" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2XYWljfQtwsnufb3ODf2-24" value="" style="group" parent="1" connectable="0" vertex="1">
-          <mxGeometry x="-1027" y="2910" width="2040" height="1880.0014285714285" as="geometry" />
+          <mxGeometry x="-1037.5" y="3030" width="2040" height="1880.0014285714285" as="geometry" />
         </mxCell>
         <mxCell id="2XYWljfQtwsnufb3ODf2-23" value="" style="group" parent="2XYWljfQtwsnufb3ODf2-24" connectable="0" vertex="1">
           <mxGeometry x="-13" y="118.17142857142858" width="2040" height="1761.83" as="geometry" />
@@ -1767,6 +1767,9 @@
         </mxCell>
         <mxCell id="2QAR-PrirkIs6PTExsAh-12" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=5;indent=5;rounded=0;" vertex="1" parent="2QAR-PrirkIs6PTExsAh-9">
           <mxGeometry width="10" height="42.971428571428575" as="geometry" />
+        </mxCell>
+        <mxCell id="QprTZKg1G1vuhMSJmfXY-294" value="Diagrama de sequência da vinculação de conta" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;rounded=0;" parent="2XYWljfQtwsnufb3ODf2-23" vertex="1">
+          <mxGeometry x="20.5" y="-88.17000000000007" width="547" height="42.971428571428575" as="geometry" />
         </mxCell>
         <mxCell id="2XYWljfQtwsnufb3ODf2-26" value="" style="group" parent="1" connectable="0" vertex="1">
           <mxGeometry x="-762" y="5420" width="1440" height="1370" as="geometry" />
@@ -2521,9 +2524,6 @@
         </mxCell>
         <mxCell id="QprTZKg1G1vuhMSJmfXY-287" value="&lt;font color=&quot;#ffffff&quot;&gt;PS03- Sem Redirecionamento&lt;/font&gt;" style="text;strokeColor=#660000;fillColor=#660000;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1000" y="2867.03" width="370" height="42.971428571428575" as="geometry" />
-        </mxCell>
-        <mxCell id="QprTZKg1G1vuhMSJmfXY-294" value="Diagrama de sequência da vinculação de conta" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1020" y="2950.0014285714287" width="547" height="42.971428571428575" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
