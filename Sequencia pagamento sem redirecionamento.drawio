@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-09-13T18:45:12.248Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="9R6axEyNpLh_TahARuvz" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-13T19:46:17.545Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="xG7LFXM-3Td-sqtMvrOo" version="21.7.4" type="github">
   <diagram name="Página-1" id="FDwNUt35A7R-VHc0g5fp">
     <mxGraphModel dx="2744" dy="-4063" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="oEO9bqCEPP3DXg2Fe81l-178" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-792" y="5360" width="1500" height="1500" as="geometry" />
+          <mxGeometry x="-740" y="5360" width="1500" height="1500" as="geometry" />
         </mxCell>
         <mxCell id="oEO9bqCEPP3DXg2Fe81l-1" value="" style="group" connectable="0" vertex="1" parent="1">
-          <mxGeometry x="-762" y="5420" width="1440" height="1370" as="geometry" />
+          <mxGeometry x="-710" y="5425" width="1440" height="1370" as="geometry" />
         </mxCell>
         <mxCell id="oEO9bqCEPP3DXg2Fe81l-2" value="Diagrama de sequência para iniciação de pagamentos sem redirecionamentos" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;rounded=0;" vertex="1" parent="oEO9bqCEPP3DXg2Fe81l-1">
           <mxGeometry width="880" height="40" as="geometry" />
