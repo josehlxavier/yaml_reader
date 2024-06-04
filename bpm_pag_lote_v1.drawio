@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-04T12:54:20.688Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="F3eC663bCr0iq3pvPFvQ" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-04T13:55:33.530Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="VdSGATtoFkkQgOrg9tJ_" version="24.4.13" type="github">
   <diagram name="Página-1" id="KaL2LrW1i0_dixC7cISi">
-    <mxGraphModel dx="2901" dy="1941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3790" dy="2272" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -169,22 +169,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ujyuRZ4Cdycu08kkKVto-19" value="" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" parent="lIRGwpxtklxmiI4k7qlp-3" vertex="1">
-          <mxGeometry x="283" y="3218" width="80" height="70" as="geometry" />
+          <mxGeometry x="278" y="3218" width="80" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ujyuRZ4Cdycu08kkKVto-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;" parent="lIRGwpxtklxmiI4k7qlp-3" source="ujyuRZ4Cdycu08kkKVto-18" target="ujyuRZ4Cdycu08kkKVto-19" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ujyuRZ4Cdycu08kkKVto-21" value="Todos os pagamentos previstos foram realizados?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lIRGwpxtklxmiI4k7qlp-3" vertex="1">
-          <mxGeometry x="322" y="3213" width="100" height="80" as="geometry" />
+        <mxCell id="ujyuRZ4Cdycu08kkKVto-21" value="Todos os pagamentos previstos no consentimento foram realizados?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lIRGwpxtklxmiI4k7qlp-3" vertex="1">
+          <mxGeometry x="317" y="3213" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ujyuRZ4Cdycu08kkKVto-39" value="" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" parent="lIRGwpxtklxmiI4k7qlp-3" vertex="1">
-          <mxGeometry x="286" y="3345.5" width="80" height="70" as="geometry" />
+          <mxGeometry x="279" y="3345.5" width="80" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ujyuRZ4Cdycu08kkKVto-40" value="A data do ultimo pagamento previsto foi ultrapassada?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lIRGwpxtklxmiI4k7qlp-3" vertex="1">
-          <mxGeometry x="327" y="3340.5" width="100" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="ujyuRZ4Cdycu08kkKVto-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;" parent="lIRGwpxtklxmiI4k7qlp-3" source="ujyuRZ4Cdycu08kkKVto-37" target="ujyuRZ4Cdycu08kkKVto-39" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ujyuRZ4Cdycu08kkKVto-40" value="A data do ultimo pagamento previsto no consentimento foi ultrapassada?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lIRGwpxtklxmiI4k7qlp-3" vertex="1">
+          <mxGeometry x="320" y="3340.5" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="a4BlbPkpiTqO5UuftQ6E-57" value="Muda o status do consentimento para CONSUMED" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;" parent="lIRGwpxtklxmiI4k7qlp-3" vertex="1">
           <mxGeometry x="30" y="3335.5" width="120" height="84.5" as="geometry" />
@@ -201,8 +195,8 @@
         <mxCell id="lIRGwpxtklxmiI4k7qlp-6" value="Acessa o iniciador de transações de pagamento" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;" parent="lIRGwpxtklxmiI4k7qlp-1" vertex="1">
           <mxGeometry x="102" y="180" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lIRGwpxtklxmiI4k7qlp-43" value="Seleciona conta de débito e autoriza o consentimento" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;" parent="lIRGwpxtklxmiI4k7qlp-1" vertex="1">
-          <mxGeometry x="110" y="1950" width="120" height="80" as="geometry" />
+        <mxCell id="lIRGwpxtklxmiI4k7qlp-43" value="Seleciona conta de débito" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;" parent="lIRGwpxtklxmiI4k7qlp-1" vertex="1">
+          <mxGeometry x="110" y="1970" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lIRGwpxtklxmiI4k7qlp-42" value="Realiza autenticação&amp;nbsp;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;" parent="lIRGwpxtklxmiI4k7qlp-1" vertex="1">
           <mxGeometry x="110" y="1780" width="120" height="80" as="geometry" />
@@ -233,6 +227,12 @@
         </mxCell>
         <mxCell id="lIRGwpxtklxmiI4k7qlp-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="lIRGwpxtklxmiI4k7qlp-1" source="lIRGwpxtklxmiI4k7qlp-40" target="lIRGwpxtklxmiI4k7qlp-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bwk8iUxbsP5TFewiAtN--1" value="" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;arcSize=10;dashed=1;strokeColor=#000000;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;whiteSpace=wrap;html=1;" vertex="1" parent="lIRGwpxtklxmiI4k7qlp-1">
+          <mxGeometry x="57.5" y="1730" width="225" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="bwk8iUxbsP5TFewiAtN--2" value="No ambiente do Detentor" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lIRGwpxtklxmiI4k7qlp-1">
+          <mxGeometry x="75" y="1734" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lIRGwpxtklxmiI4k7qlp-2" value="Iniciador" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=1;swimlaneLine=1;strokeWidth=2;swimlaneFillColor=#ffffff;whiteSpace=wrap;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="231" y="-830" width="389" height="3920" as="geometry" />
@@ -319,10 +319,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="a4BlbPkpiTqO5UuftQ6E-35" value="" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;rotation=-180;" parent="lIRGwpxtklxmiI4k7qlp-2" vertex="1">
-          <mxGeometry x="-40" y="1460" width="69.5" height="110" as="geometry" />
+          <mxGeometry x="-40" y="1475" width="69.5" height="110" as="geometry" />
         </mxCell>
         <mxCell id="a4BlbPkpiTqO5UuftQ6E-34" value="Deve-se mudar de AWAITING_CONFIGURATION para AWATING_AUTHORISATION" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="lIRGwpxtklxmiI4k7qlp-2" vertex="1">
-          <mxGeometry x="-138" y="1460" width="111" height="100" as="geometry" />
+          <mxGeometry x="-138" y="1475" width="111" height="100" as="geometry" />
         </mxCell>
         <mxCell id="a4BlbPkpiTqO5UuftQ6E-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;" parent="lIRGwpxtklxmiI4k7qlp-2" source="a4BlbPkpiTqO5UuftQ6E-35" edge="1">
           <mxGeometry relative="1" as="geometry">
