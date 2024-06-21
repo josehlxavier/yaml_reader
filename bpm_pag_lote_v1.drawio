@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-21T21:36:32.586Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="ZQPJKGZ1GcPZutLi_AvK" version="24.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-21T21:38:45.065Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="mIltopvZDxWDPYWBJVgV" version="24.6.1" type="github">
   <diagram name="Página-1" id="KaL2LrW1i0_dixC7cISi">
-    <mxGraphModel dx="3116" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2353" dy="1705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,6 +37,9 @@
         </mxCell>
         <mxCell id="lIRGwpxtklxmiI4k7qlp-59" value="Consulta estado do consentimento" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopStandard=1;" parent="lIRGwpxtklxmiI4k7qlp-2" vertex="1">
           <mxGeometry x="233" y="1980" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YQiRY6SZubpiqPFhKYMa-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;dashPattern=1 2;" edge="1" parent="lIRGwpxtklxmiI4k7qlp-2" source="lIRGwpxtklxmiI4k7qlp-65" target="a4BlbPkpiTqO5UuftQ6E-56">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lIRGwpxtklxmiI4k7qlp-65" value="Envia as solicitações de pagamento previstas para o dia" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=send;isLoopStandard=1;" parent="lIRGwpxtklxmiI4k7qlp-2" vertex="1">
           <mxGeometry x="259" y="2351" width="120" height="80" as="geometry" />
@@ -187,6 +190,9 @@
         <mxCell id="YQiRY6SZubpiqPFhKYMa-12" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=conditional;" vertex="1" parent="lIRGwpxtklxmiI4k7qlp-2">
           <mxGeometry x="82" y="2257" width="50" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="a4BlbPkpiTqO5UuftQ6E-56" value="Loop para envio de todos os pagamentos previstos para o dia. Caso exista ordem preferencial de liquidação, fica a cargo do iniciador informar os pagamentos em ordem." style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="lIRGwpxtklxmiI4k7qlp-2" vertex="1">
+          <mxGeometry x="232" y="2450" width="173.54" height="135" as="geometry" />
+        </mxCell>
         <mxCell id="lIRGwpxtklxmiI4k7qlp-3" value="PSP Pagador" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=1;swimlaneLine=1;strokeWidth=2;swimlaneFillColor=#ffffff;whiteSpace=wrap;rounded=1;glass=0;" parent="1" vertex="1">
           <mxGeometry x="790" y="-850" width="420" height="3920" as="geometry" />
         </mxCell>
@@ -226,7 +232,7 @@
         <mxCell id="lIRGwpxtklxmiI4k7qlp-72" value="Valida as informações do pagamento com os dados do consentimento" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;" parent="lIRGwpxtklxmiI4k7qlp-3" vertex="1">
           <mxGeometry x="112.5" y="2380" width="165" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="a4BlbPkpiTqO5UuftQ6E-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=dash;startFill=0;" parent="lIRGwpxtklxmiI4k7qlp-3" source="lIRGwpxtklxmiI4k7qlp-74" target="lIRGwpxtklxmiI4k7qlp-76" edge="1">
+        <mxCell id="a4BlbPkpiTqO5UuftQ6E-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="lIRGwpxtklxmiI4k7qlp-3" source="lIRGwpxtklxmiI4k7qlp-74" target="lIRGwpxtklxmiI4k7qlp-76" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lIRGwpxtklxmiI4k7qlp-74" value="Sucesso na criação&lt;br&gt;&amp;nbsp;do pagamento?" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=middle;labelBackgroundColor=#ffffff;verticalAlign=middle;align=right;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;labelPosition=left;" parent="lIRGwpxtklxmiI4k7qlp-3" vertex="1">
@@ -348,7 +354,7 @@
         <mxCell id="YQiRY6SZubpiqPFhKYMa-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;startArrow=none;startFill=0;dashed=1;dashPattern=1 2;" edge="1" parent="lIRGwpxtklxmiI4k7qlp-3" source="ujyuRZ4Cdycu08kkKVto-39" target="ujyuRZ4Cdycu08kkKVto-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YQiRY6SZubpiqPFhKYMa-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=dash;startFill=0;" edge="1" parent="lIRGwpxtklxmiI4k7qlp-3" source="YQiRY6SZubpiqPFhKYMa-18" target="YQiRY6SZubpiqPFhKYMa-31">
+        <mxCell id="YQiRY6SZubpiqPFhKYMa-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lIRGwpxtklxmiI4k7qlp-3" source="YQiRY6SZubpiqPFhKYMa-18" target="YQiRY6SZubpiqPFhKYMa-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YQiRY6SZubpiqPFhKYMa-18" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;" vertex="1" parent="lIRGwpxtklxmiI4k7qlp-3">
@@ -402,11 +408,6 @@
               <mxPoint x="195" y="3143" />
               <mxPoint x="255" y="3143" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YQiRY6SZubpiqPFhKYMa-38" value="Sim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lIRGwpxtklxmiI4k7qlp-3">
-          <mxGeometry x="219.9950617283945" y="3409.9955555555557" as="geometry">
-            <mxPoint x="-10" y="-330" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lIRGwpxtklxmiI4k7qlp-1" value="Pagador" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=1;swimlaneLine=1;strokeWidth=2;swimlaneFillColor=#ffffff;whiteSpace=wrap;rounded=1;" parent="1" vertex="1">
@@ -580,15 +581,6 @@
         <mxCell id="hj-Veea-2y6k5cavyvsn-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;dashed=1;dashPattern=1 2;" parent="1" source="hj-Veea-2y6k5cavyvsn-14" target="hj-Veea-2y6k5cavyvsn-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kl3Dmiq_TUmMfXFTaF4l-33" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="1430" y="1490" width="243.54000000000002" height="145" as="geometry" />
-        </mxCell>
-        <mxCell id="a4BlbPkpiTqO5UuftQ6E-56" value="Loop para envio de todos os pagamentos previstos para o dia. Caso exista ordem preferencial de liquidação, fica a cargo do iniciador informar os pagamentos em ordem." style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="kl3Dmiq_TUmMfXFTaF4l-33" vertex="1">
-          <mxGeometry x="14.540000000000006" y="5" width="229" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="kl3Dmiq_TUmMfXFTaF4l-31" value="" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" parent="kl3Dmiq_TUmMfXFTaF4l-33" vertex="1">
-          <mxGeometry width="18.54" height="90" as="geometry" />
-        </mxCell>
         <mxCell id="lIRGwpxtklxmiI4k7qlp-61" value="Loop até que o consentimento esteja em AUTHORISED" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="670" y="1114" width="110" height="150" as="geometry" />
         </mxCell>
@@ -609,6 +601,11 @@
         </mxCell>
         <mxCell id="YQiRY6SZubpiqPFhKYMa-15" value="Aguarda até a data de execução do próximo pagamento previsto no lote" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="1401" width="110" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="YQiRY6SZubpiqPFhKYMa-38" value="Sim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1007.3950617283945" y="2545.5555555555557" as="geometry">
+            <mxPoint x="-10" y="-330" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
