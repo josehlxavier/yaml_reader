@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T18:56:23.481Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="p-vxpXAs8rc5px9d4h-H" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-16T18:56:51.226Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="X5LglJSsSDeIgm7YjwXp" version="24.6.5" type="github">
   <diagram name="Página-1" id="KaL2LrW1i0_dixC7cISi">
-    <mxGraphModel dx="2744" dy="1772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3127" dy="1893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -201,7 +201,7 @@
         <mxCell id="hj-Veea-2y6k5cavyvsn-16" value="Loop até que os pagamentos enviados estejam no status ACSC" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lIRGwpxtklxmiI4k7qlp-2" vertex="1">
           <mxGeometry x="-129.5" y="2886.5" width="110" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="lIRGwpxtklxmiI4k7qlp-3" value="2" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=1;swimlaneLine=1;strokeWidth=2;swimlaneFillColor=#ffffff;whiteSpace=wrap;rounded=1;glass=0;" parent="1" vertex="1">
+        <mxCell id="lIRGwpxtklxmiI4k7qlp-3" value="Detentor" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=1;swimlaneLine=1;strokeWidth=2;swimlaneFillColor=#ffffff;whiteSpace=wrap;rounded=1;glass=0;" parent="1" vertex="1">
           <mxGeometry x="790" y="-834" width="420" height="3920" as="geometry" />
         </mxCell>
         <mxCell id="lIRGwpxtklxmiI4k7qlp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="lIRGwpxtklxmiI4k7qlp-3" source="lIRGwpxtklxmiI4k7qlp-15" target="lIRGwpxtklxmiI4k7qlp-16" edge="1">
