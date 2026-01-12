@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.3.0">
   <diagram name="Página-1" id="QkyqMWD3w2aXT0PtD5QD">
-    <mxGraphModel dx="1388" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1665" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -239,7 +239,7 @@
             <mxPoint x="892" y="800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TcMd0lUbATls-qMNmPkH-48" connectable="0" parent="TcMd0lUbATls-qMNmPkH-47" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;POST /recurring-consents/{recurringConsentId}/authorise&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;{riskSignals:..}&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Authorization: Bearer payment_access_token…&lt;/font&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="TcMd0lUbATls-qMNmPkH-48" connectable="0" parent="TcMd0lUbATls-qMNmPkH-47" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;POST /recurring-consents/{recurringConsentId}/authorise&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;{riskSignals:..}&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Authorization: Bearer recurring_payment_access_token…&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.4959" y="1" as="geometry">
             <mxPoint x="-68" y="-19" as="offset" />
           </mxGeometry>
