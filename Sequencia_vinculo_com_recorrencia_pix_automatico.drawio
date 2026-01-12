@@ -354,7 +354,7 @@
             <mxPoint x="622" y="1250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TcMd0lUbATls-qMNmPkH-69" connectable="0" parent="TcMd0lUbATls-qMNmPkH-68" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Success {...status: ACSC, SCHD}" vertex="1">
+        <mxCell id="TcMd0lUbATls-qMNmPkH-69" connectable="0" parent="TcMd0lUbATls-qMNmPkH-68" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="200 {...status: ACSC, SCHD}" vertex="1">
           <mxGeometry relative="1" x="-0.5747" y="-1" as="geometry">
             <mxPoint x="-98" y="-9" as="offset" />
           </mxGeometry>
