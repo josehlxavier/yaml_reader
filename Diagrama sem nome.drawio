@@ -1,9 +1,200 @@
-<mxfile host="app.diagrams.net" modified="2024-05-17T18:15:38.319Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.4.4" etag="dIJnj2WdFFo0hepKUJ98" type="github">
-  <diagram name="Página-1" id="jRyq5dvToQbFkZcwZ2c3">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="29.3.8">
+  <diagram name="Página-1" id="K5Sa98uT9JOAc5k4n7Mz">
+    <mxGraphModel dx="2383" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1130" width="1370" x="144" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Filtros" vertex="1">
+          <mxGeometry height="60" width="1320" x="164" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Data Início" vertex="1">
+          <mxGeometry height="30" width="200" x="184" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Data Fim" vertex="1">
+          <mxGeometry height="30" width="200" x="404" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Conglomerados" vertex="1">
+          <mxGeometry height="30" width="220" x="980" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Segmento PF/PJ" vertex="1">
+          <mxGeometry height="30" width="220" x="1230" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-12" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Funil - Valores Absolutos Pagamentos(% Valores Percentuais)" vertex="1">
+          <mxGeometry height="310" width="370" x="173" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="u-uMp4wKow02meTjZr6j-7" parent="O7dQkwkqJmYXlQggO2pX-12" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="5000 (50%)" vertex="1">
+          <mxGeometry height="40" width="175" x="96.5" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="u-uMp4wKow02meTjZr6j-8" parent="O7dQkwkqJmYXlQggO2pX-12" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="3000 (30%)" vertex="1">
+          <mxGeometry height="40" width="101.63" x="133.19" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Produto" vertex="1">
+          <mxGeometry height="30" width="220" x="730" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-24" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="310" width="370" x="634" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-21" parent="O7dQkwkqJmYXlQggO2pX-24" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="310" width="370" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-22" parent="O7dQkwkqJmYXlQggO2pX-24" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Variação percentual de pagamentos cancelados entre a data de início e a data de fim (Ex. Data Início tinha 50% dos pagamentos cancelados, Data fim tem 45%, essa variação é -5%" vertex="1">
+          <mxGeometry height="50" width="370" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-25" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="310" width="370" x="172" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-19" parent="O7dQkwkqJmYXlQggO2pX-25" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="310" width="370" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-20" parent="O7dQkwkqJmYXlQggO2pX-25" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Variação percentual de pagamentos rejeitados entre a data de início e a data de fim (Ex. Data Início tinha 50% dos pagamentos rejeitados, Data fim tem 45%, essa variação é -5%" vertex="1">
+          <mxGeometry height="50" width="370" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-26" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="310" width="370" x="1104" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-17" parent="O7dQkwkqJmYXlQggO2pX-26" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="310" width="370" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-18" parent="O7dQkwkqJmYXlQggO2pX-26" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Variação percentual de consentimentos autorizados entre a data de início e a data de fim (Ex. Data Início tinha 50% dos consentimentos autorizados, Data fim tem 45%, essa variação é -5%" vertex="1">
+          <mxGeometry height="50" width="370" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-27" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="310" width="370" x="634" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-34" connectable="0" parent="O7dQkwkqJmYXlQggO2pX-27" style="group" value="" vertex="1">
+          <mxGeometry height="310" width="370" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-15" parent="O7dQkwkqJmYXlQggO2pX-34" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="310" width="370" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-16" parent="O7dQkwkqJmYXlQggO2pX-34" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Variação percentual de pagamentos liquidados entre a data de início e a data de fim (Ex. Data Início tinha 50% dos pagamentos liquidados, Data fim tem 45%, essa variação é -5%" vertex="1">
+          <mxGeometry height="50" width="370" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-32" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="310" width="370" x="634" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-30" parent="O7dQkwkqJmYXlQggO2pX-32" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="310" width="370" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-31" parent="O7dQkwkqJmYXlQggO2pX-32" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Grafico de barras vertical exibindo quantidade absoluta de pagamentos cancelados" vertex="1">
+          <mxGeometry height="50" width="370" as="geometry" />
+        </mxCell>
+        <mxCell id="u-uMp4wKow02meTjZr6j-49" parent="O7dQkwkqJmYXlQggO2pX-32" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.infographic.shadedCube;isoAngle=15;fillColor=#10739E;strokeColor=none;fontStyle=1;fontColor=#10739E;fontSize=12;shadow=0;" value="Label" vertex="1">
+          <mxGeometry height="80" width="40" x="11.5" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="u-uMp4wKow02meTjZr6j-50" parent="O7dQkwkqJmYXlQggO2pX-32" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.infographic.shadedCube;isoAngle=15;fillColor=#F2931E;strokeColor=none;fontStyle=1;fontColor=#F2931E;fontSize=12;shadow=0;" value="Label" vertex="1">
+          <mxGeometry height="100" width="40" x="61.5" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="u-uMp4wKow02meTjZr6j-51" parent="O7dQkwkqJmYXlQggO2pX-32" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.infographic.shadedCube;isoAngle=15;fillColor=#AE4132;strokeColor=none;fontStyle=1;fontColor=#AE4132;fontSize=12;shadow=0;" value="Label" vertex="1">
+          <mxGeometry height="90" width="40" x="112.5" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="u-uMp4wKow02meTjZr6j-52" parent="O7dQkwkqJmYXlQggO2pX-32" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.infographic.shadedCube;isoAngle=15;fillColor=#23445D;strokeColor=none;fontStyle=1;fontColor=#23445D;fontSize=12;shadow=0;" value="Label" vertex="1">
+          <mxGeometry height="50" width="40" x="162.5" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="u-uMp4wKow02meTjZr6j-53" parent="O7dQkwkqJmYXlQggO2pX-32" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.infographic.shadedCube;isoAngle=15;fillColor=#12AAB5;strokeColor=none;fontStyle=1;fontColor=#12AAB5;fontSize=12;shadow=0;" value="Label" vertex="1">
+          <mxGeometry height="70" width="40" x="208.5" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="u-uMp4wKow02meTjZr6j-54" parent="O7dQkwkqJmYXlQggO2pX-32" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.infographic.shadedCube;isoAngle=15;fillColor=#AE4132;strokeColor=none;fontStyle=1;fontColor=#AE4132;fontSize=12;shadow=0;" value="Label" vertex="1">
+          <mxGeometry height="90" width="40" x="268.5" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="u-uMp4wKow02meTjZr6j-55" parent="O7dQkwkqJmYXlQggO2pX-32" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.infographic.shadedCube;isoAngle=15;fillColor=#23445D;strokeColor=none;fontStyle=1;fontColor=#23445D;fontSize=12;shadow=0;" value="Label" vertex="1">
+          <mxGeometry height="50" width="40" x="318.5" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-33" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="310" width="370" x="173" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-28" parent="O7dQkwkqJmYXlQggO2pX-33" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="310" width="370" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-29" parent="O7dQkwkqJmYXlQggO2pX-33" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Grafico de barras vertical exibindo quantidade absoluta de pagamentos rejeitados" vertex="1">
+          <mxGeometry height="50" width="370" as="geometry" />
+        </mxCell>
+        <mxCell id="u-uMp4wKow02meTjZr6j-42" parent="O7dQkwkqJmYXlQggO2pX-33" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.infographic.shadedCube;isoAngle=15;fillColor=#10739E;strokeColor=none;fontStyle=1;fontColor=#10739E;fontSize=12;shadow=0;" value="Label" vertex="1">
+          <mxGeometry height="80" width="40" x="11.5" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="u-uMp4wKow02meTjZr6j-43" parent="O7dQkwkqJmYXlQggO2pX-33" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.infographic.shadedCube;isoAngle=15;fillColor=#F2931E;strokeColor=none;fontStyle=1;fontColor=#F2931E;fontSize=12;shadow=0;" value="Label" vertex="1">
+          <mxGeometry height="100" width="40" x="61.5" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="u-uMp4wKow02meTjZr6j-44" parent="O7dQkwkqJmYXlQggO2pX-33" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.infographic.shadedCube;isoAngle=15;fillColor=#AE4132;strokeColor=none;fontStyle=1;fontColor=#AE4132;fontSize=12;shadow=0;" value="Label" vertex="1">
+          <mxGeometry height="90" width="40" x="112.5" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="u-uMp4wKow02meTjZr6j-45" parent="O7dQkwkqJmYXlQggO2pX-33" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.infographic.shadedCube;isoAngle=15;fillColor=#23445D;strokeColor=none;fontStyle=1;fontColor=#23445D;fontSize=12;shadow=0;" value="Label" vertex="1">
+          <mxGeometry height="50" width="40" x="162.5" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="u-uMp4wKow02meTjZr6j-46" parent="O7dQkwkqJmYXlQggO2pX-33" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.infographic.shadedCube;isoAngle=15;fillColor=#12AAB5;strokeColor=none;fontStyle=1;fontColor=#12AAB5;fontSize=12;shadow=0;" value="Label" vertex="1">
+          <mxGeometry height="70" width="40" x="208.5" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="u-uMp4wKow02meTjZr6j-47" parent="O7dQkwkqJmYXlQggO2pX-33" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.infographic.shadedCube;isoAngle=15;fillColor=#AE4132;strokeColor=none;fontStyle=1;fontColor=#AE4132;fontSize=12;shadow=0;" value="Label" vertex="1">
+          <mxGeometry height="90" width="40" x="268.5" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="u-uMp4wKow02meTjZr6j-48" parent="O7dQkwkqJmYXlQggO2pX-33" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.infographic.shadedCube;isoAngle=15;fillColor=#23445D;strokeColor=none;fontStyle=1;fontColor=#23445D;fontSize=12;shadow=0;" value="Label" vertex="1">
+          <mxGeometry height="50" width="40" x="318.5" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-35" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="310" width="370" x="1104" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-36" parent="O7dQkwkqJmYXlQggO2pX-35" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="310" width="370" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-37" parent="O7dQkwkqJmYXlQggO2pX-35" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Variação percentual de consentimentos rejeitados entre a data de início e a data de fim (Ex. Data Início tinha 50% dos consentimentos rejeitados, Data fim tem 45%, essa variação é -5%" vertex="1">
+          <mxGeometry height="50" width="370" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-38" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="310" width="370" x="1104" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-39" parent="O7dQkwkqJmYXlQggO2pX-38" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="310" width="370" as="geometry" />
+        </mxCell>
+        <mxCell id="O7dQkwkqJmYXlQggO2pX-40" parent="O7dQkwkqJmYXlQggO2pX-38" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Grafico de barras verticais com a quantidade de consentimentos criados por dia" vertex="1">
+          <mxGeometry height="50" width="370" as="geometry" />
+        </mxCell>
+        <mxCell id="u-uMp4wKow02meTjZr6j-34" parent="O7dQkwkqJmYXlQggO2pX-38" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.infographic.shadedCube;isoAngle=15;fillColor=#10739E;strokeColor=none;fontStyle=1;fontColor=#10739E;fontSize=12;shadow=0;" value="Label" vertex="1">
+          <mxGeometry height="80" width="40" x="9" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="u-uMp4wKow02meTjZr6j-35" parent="O7dQkwkqJmYXlQggO2pX-38" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.infographic.shadedCube;isoAngle=15;fillColor=#F2931E;strokeColor=none;fontStyle=1;fontColor=#F2931E;fontSize=12;shadow=0;" value="Label" vertex="1">
+          <mxGeometry height="100" width="40" x="59" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="u-uMp4wKow02meTjZr6j-36" parent="O7dQkwkqJmYXlQggO2pX-38" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.infographic.shadedCube;isoAngle=15;fillColor=#AE4132;strokeColor=none;fontStyle=1;fontColor=#AE4132;fontSize=12;shadow=0;" value="Label" vertex="1">
+          <mxGeometry height="90" width="40" x="110" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="u-uMp4wKow02meTjZr6j-37" parent="O7dQkwkqJmYXlQggO2pX-38" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.infographic.shadedCube;isoAngle=15;fillColor=#23445D;strokeColor=none;fontStyle=1;fontColor=#23445D;fontSize=12;shadow=0;" value="Label" vertex="1">
+          <mxGeometry height="50" width="40" x="160" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="u-uMp4wKow02meTjZr6j-38" parent="O7dQkwkqJmYXlQggO2pX-38" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.infographic.shadedCube;isoAngle=15;fillColor=#12AAB5;strokeColor=none;fontStyle=1;fontColor=#12AAB5;fontSize=12;shadow=0;" value="Label" vertex="1">
+          <mxGeometry height="70" width="40" x="206" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="u-uMp4wKow02meTjZr6j-39" parent="O7dQkwkqJmYXlQggO2pX-38" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.infographic.shadedCube;isoAngle=15;fillColor=#AE4132;strokeColor=none;fontStyle=1;fontColor=#AE4132;fontSize=12;shadow=0;" value="Label" vertex="1">
+          <mxGeometry height="90" width="40" x="266" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="u-uMp4wKow02meTjZr6j-40" parent="O7dQkwkqJmYXlQggO2pX-38" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.infographic.shadedCube;isoAngle=15;fillColor=#23445D;strokeColor=none;fontStyle=1;fontColor=#23445D;fontSize=12;shadow=0;" value="Label" vertex="1">
+          <mxGeometry height="50" width="40" x="316" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="u-uMp4wKow02meTjZr6j-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;imageWidth=24;" value="&amp;nbsp;Quantidade de pagamentos solicitados &lt;br&gt;- 10000 (100%)" vertex="1">
+          <mxGeometry height="40" width="290" x="212" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="u-uMp4wKow02meTjZr6j-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Quantidade de pagamentos criados com sucesso - 8000 (80%)" vertex="1">
+          <mxGeometry height="40" width="260" x="227" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="u-uMp4wKow02meTjZr6j-11" edge="1" parent="1" source="u-uMp4wKow02meTjZr6j-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="u-uMp4wKow02meTjZr6j-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="315" />
+              <mxPoint x="190" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u-uMp4wKow02meTjZr6j-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Quantidade de pagamentos agendados com sucesso" vertex="1">
+          <mxGeometry height="30" width="130" x="-40" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="u-uMp4wKow02meTjZr6j-13" edge="1" parent="1" source="u-uMp4wKow02meTjZr6j-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="u-uMp4wKow02meTjZr6j-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u-uMp4wKow02meTjZr6j-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Quantidade de pagamentos liquidados com sucesso" vertex="1">
+          <mxGeometry height="30" width="130" x="-40" y="375" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
